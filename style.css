@@ -11,7 +11,7 @@ body{
     background-size: auto;
 }
 .head{
-    background-image: url("imagens/top-view-table-full-food.jpg");
+    background-image: url("image/top-view-table-full-food.jpg");
     background-size: cover;
     width: auto;
     height: 450px;
@@ -20,7 +20,7 @@ body{
     flex-direction: column;
 }
 #dlvr-img{
-    background-image: url("/imagens/mapas-e-bandeiras.png");
+    background-image: url("/image/mapas-e-bandeiras.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -228,9 +228,7 @@ footer{
 }
 .table-1{
     margin: 0 0 0 23%;
-    width: 60%;
-    border-collapse: collapse;
-    
+    width: 60%;    
 }
 .table-1 td{
 
@@ -243,10 +241,7 @@ footer{
     color: #FFFFFF;
 }
 .table-2{
-    margin: 0 0 0 23%;
-    width: 40%;
-    border-collapse: collapse;
-    
+    width: 60%;
 }
 .table-2 td{
 
@@ -266,6 +261,7 @@ footer a:hover{
     text-decoration: underline;
 }
 #cncdrsfns{
+    width: 60%;
     display: flex;
     flex-direction: row;
     margin: 0 0px 0 23%;
@@ -275,4 +271,47 @@ footer a:hover{
     padding-left: 10px;
     padding-right: 20px;
     font-size: smaller;
+}
+#buttn-footer1{
+    margin-top: 400%;
+}
+#agnt-ftr{
+    /* display: flex; */
+    width: 68%;
+    margin: 0 0 0 23%;
+    width: 60%;
+}
+#agnt-ftr table{
+    float: left;
+}
+#agnt-ftr button{
+    float: right;
+    width: 200px;
+    margin-top: 40px;
+    margin-left: 170px;
+    margin-bottom: -30px;
+    flex-direction: column;
+    border-radius: 10px;
+    width: 150px;
+    border: none;
+    background-color: #747474;
+}
+#separar-btn{
+    flex-direction: column;
+    display: flex;
+    
+}
+#separar-btn button{
+    transition: 1s all;
+}
+#separar-btn button:hover{
+    background-color: #929292;
+}
+#img-fns{
+    margin: 0 0 0 370px;
+    display: flex;
+}
+#img-fns a{
+    margin: 24px 0 0 10px;
+    padding: 0;
 }
