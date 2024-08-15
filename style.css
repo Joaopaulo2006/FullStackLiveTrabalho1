@@ -154,10 +154,6 @@ body{
 #img-main-1, #img-main-2, #img-main-3{
     width: 150px;
 }
-#main-mid img, #main-bottom img{
-    width: 150%;
-    height: 150%;
-}
 #main-mid{
     width: 54%;
     margin: 100px 0 0 0;
